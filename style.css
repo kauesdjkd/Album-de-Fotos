@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+/* Estilos globais para o documento */
+body {
+    font-family: "Rowdies", sans-serif; /* Define a fonte principal do documento */
+    color: #a36969; /* Cor do texto */
+    background-color: #ff9a9a; /* Cor de fundo */
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área */
+    background-repeat: repeat-y; /* Repete a imagem de fundo verticalmente */
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os elementos na vertical */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    font-family: "Pixelify Sans"; /* Fonte do cabeçalho */
+    font-size: 0.8rem; /* Tamanho da fonte do cabeçalho */
+    color: #dd5151; /* Cor do texto do cabeçalho */
+    margin-left: 1rem; /* Margem esquerda do cabeçalho */
+}
+
+/* Estilos para o campo de entrada de texto */
+section input {
+    font-family: "Baskervville SC"; /* Fonte do campo de entrada */
+    width: 30rem; /* Largura do campo de entrada */
+    height: 1.5rem; /* Altura do campo de entrada */
+    border-radius: 5px; /* Borda arredondada do campo de entrada */
+    margin-bottom: 1rem; /* Margem inferior do campo de entrada */
+    margin-left: 1rem; /* Margem esquerda do campo de entrada */
+    padding: 1rem; /* Preenchimento interno do campo de entrada*/
+    background-color: #ebc5c5; /* Cor de fundo do campo de entrada*/
+    box-sizing: border-box; /* Inclui o padding e border nas dimensões*/
+}
+
+/* Estilos para o botão quando o mouse está sobre ele */
+section button:hover {
+    color: #d38181; /* Cor do texto do botão quando o mouse está sobre ele*/
+    background-color: #411111; /* Cor de fundo do botão quando o mouse está sobre ele*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão quando o mouse está sobre ele*/ 
+}
+
+/* Estilos para o botão */
+section button {
+    font-family: "Chakra Petch"; /* Fonte do botão*/
+    padding: 0.5rem 0.3rem; /* Preenchimento interno do botão*/
+    border-radius: 5px; /* Borda arredondada do botão*/
+    color: #490e0e; /* Cor do texto do botão*/
+    cursor: pointer; /* Indica que o botão é clicável*/
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: white; /* Cor de fundo do rodapé*/
+    color: #2e1414; /* Cor do texto do rodapé*/
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 0; /* Remove o preenchimento do rodapé */
+    width: 100%; /* Largura total do rodapé */
+    position: sticky; /* Posiciona o rodapé na parte inferior da tela */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da tela */
+    font-size: 1rem; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilos para as imagens */
+img {
+    width: 25%; /* Largura das imagens*/
+    height: auto; /* Altura das imagens ajustada automaticamente*/
+    border: 5px double #ee9595; /* Borda das imagens*/
+    border-radius: 15px; /* Borda arredondada das imagens*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra das imagens*/
+    margin-left: 5%; /* Margem esquerda das imagens*/
+}
+
+/* Estilos para o container dos resultados da pesquisa */
+.resultados-pesquisa {
+    background-color: rgba(235, 226, 225, 0.79); /* Cor de fundo do container*/
+    border-radius: 40px; /* Borda arredondada do container*/
+    text-align: left; /* Alinha o texto do container à esquerda*/
+    display: flex; /* Define o layout do container como flexbox*/
+    flex-direction: column; /* Orienta os elementos do container na vertical*/
+    align-items: center; /* Alinha os elementos do container horizontalmente no centro*/
+    justify-content: center; /* Alinha os elementos do container verticalmente no centro*/
+    margin: 4rem; /* Margem do container*/
+    padding: 2rem; /* Preenchimento interno do container*/
+}
